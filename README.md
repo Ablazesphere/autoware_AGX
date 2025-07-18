@@ -62,7 +62,7 @@ sdkmanager
 
 ### Step 4: OpenCV Version Downgrade (Critical Step)
 
-**IMPORTANT**: Autoware builds fail with OpenCV 4.8.0 that comes with JetPack 6.2. You must downgrade to OpenCV 4.5.4.
+**IMPORTANT**: The newer OpenCV version introduces incompatible function signatures and deprecated features that break Autoware's build system. To resolve this, we remove JetPack's OpenCV installation and downgrade to the Ubuntu repository's 4.5.4 version that Autoware was designed to work with.
 
 ```bash
 # Remove all OpenCV packages
