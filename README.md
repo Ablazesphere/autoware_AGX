@@ -115,6 +115,8 @@ nano autoware/ansible/playbooks/universe.yaml
 
 2. Remove the highlighted line as shown in the image reference
    - Look for and remove any conflicting library specifications
+   <br>
+   <img width="664" height="339" alt="image" src="https://github.com/user-attachments/assets/e5d74c58-7b38-44b5-ac06-d390d23bb564" />
 
 #### 8.3 Run Development Environment Setup
 
