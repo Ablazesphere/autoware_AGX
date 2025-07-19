@@ -110,7 +110,7 @@ cd autoware
 
 1. Open the universe.yaml file:
 ```bash
-nano autoware/ansible/playbooks/universe.yaml
+nano ~/autoware/ansible/playbooks/universe.yaml
 ```
 
 2. Remove the highlighted line as shown in the image reference
